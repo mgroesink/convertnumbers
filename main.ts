@@ -10,8 +10,8 @@ input.onButtonPressed(Button.A, function () {
 })
 function omkeren (tekst: string) {
     omgekeerd = ""
-    for (let index = 0; index <= tekst.length - 1; index++) {
-        omgekeerd = "" + tekst.charAt(index) + omgekeerd
+    for (let waarde of tekst) {
+        omgekeerd = "" + waarde + omgekeerd
     }
     return omgekeerd
 }
